@@ -4,5 +4,8 @@
 # node modules
 node_modules
 
+# config file
+config/index.js
+
 # db
 db/*
