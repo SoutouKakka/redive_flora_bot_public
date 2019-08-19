@@ -15,10 +15,14 @@ bot.on(/^\/cb_([1-5])(r(4|11)|:(4|11))?$/i, messageHandler.command.getClanBattle
 bot.on(/^\/cbd_(4|11)/, messageHandler.command.updateClanBattleDefault);
 
 // Set chat custom sticker
-bot.on(/^\/cbs_([1-5])$/i, messageHandler.command.updateClanBattleSticker);
+bot.on(/^\/cbs_([1-5]|teams)$/i, messageHandler.command.updateClanBattleSticker);
 
 // Unset chat custom sticker
 bot.on(/^\/cbs_remove$/i, messageHandler.command.removeClanBattleSticker);
+
+// Recommended teams
+bot.on(/^\/cb_teams/i, messageHandler.command.getClanTeamRecommendation);
+
 
 
 /**
