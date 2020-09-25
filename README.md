@@ -28,8 +28,8 @@ $ npm install
 * Customized for Hong Kong users
 
 ### Usage
-1. Copy `config/index.example.js` to `config/index.js`
-2. Fill in `config/index.js` with your bot API token, Google Spreadsheet API key
+1. Copy `config/default.example.js` to `config/default.js`
+2. Fill in `config/default.js` with your bot API token, Google Spreadsheet API key
 3. You can make use of [my demo spreadsheet](https://docs.google.com/spreadsheets/d/1mlrMBOX0Gy-hyXUDuhwAbmwxfN00O0NS1t6DLyl-YRQ/edit#gid=1084290105) or your own spreadsheet details (Please follow the format of demo spreadsheet)
 4. Start the process
 ```
