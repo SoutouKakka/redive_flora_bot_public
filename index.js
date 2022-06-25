@@ -9,10 +9,10 @@ bot.start();
  * Commands
  */
 // Direct command query
-bot.on(/^\/cb_([1-5])(r(4|11|35)|:(4|11|35))?$/i, messageHandler.command.getClanBattleByCommand);
+bot.on(/^\/cb_([1-5])(r(4|11|31)|:(4|11|31))?$/i, messageHandler.command.getClanBattleByCommand);
 
 // Set chat default cycle
-bot.on(/^\/cbd_(4|11|35)/, messageHandler.command.updateClanBattleDefault);
+bot.on(/^\/cbd_(4|11|31)/, messageHandler.command.updateClanBattleDefault);
 
 // Set chat custom sticker
 bot.on(/^\/cbs_([1-5]|teams)$/i, messageHandler.command.updateClanBattleSticker);
